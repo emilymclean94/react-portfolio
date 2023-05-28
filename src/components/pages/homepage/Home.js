@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AboutMe() {
+export default function AboutMe(currentPage, handlePageChange) {
     return (
 
       <div className='border border-danger my-5c d-flex flex-column align-items-center container'>
@@ -13,7 +13,10 @@ export default function AboutMe() {
           imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
           in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
         </p>
-        <button>Portfolio</button>
+        <a 
+        //! Will need to fix conditional rendering so this button works.
+        href="#Portfolio" 
+        className="btn btn-danger btn-lg" role="button" aria-pressed="false">Portfolio</a>
       </div>
     );
   }
