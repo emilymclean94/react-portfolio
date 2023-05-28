@@ -4,7 +4,7 @@ export default function AboutMe() {
     return (
 
       <div className='border border-danger my-5c d-flex flex-column align-items-center container'>
-        <h1>About Page</h1>
+        <h1>Hi, I'm Emily.</h1>
         <p>
           Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
           Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
