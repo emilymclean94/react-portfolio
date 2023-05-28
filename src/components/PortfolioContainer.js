@@ -25,10 +25,10 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <main className=''>
         <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
 
         {renderPage()}
-        </div>
+        </main>
     );
 };

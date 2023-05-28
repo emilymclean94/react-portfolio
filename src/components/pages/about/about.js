@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function AboutMe() {
     return (
-      <div>
+
+      <div className='border border-danger my-5c d-flex flex-column align-items-center container'>
         <h1>About Page</h1>
         <p>
           Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
@@ -12,6 +13,7 @@ export default function AboutMe() {
           imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
           in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
         </p>
+        <button>Portfolio</button>
       </div>
     );
   }
