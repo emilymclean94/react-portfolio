@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Projects() {
+export default function Resume() {
     return (
         <div>
-            <h1>Project Page</h1>
+            <h1>My Resume</h1>
         </div>
     )
 }

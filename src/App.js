@@ -1,7 +1,7 @@
 import React from "react";
-import AboutMe from "./components/pages/about/About";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-const App = () => <AboutMe />;
+const App = () => <PortfolioContainer />;
 
 export default App;
 
