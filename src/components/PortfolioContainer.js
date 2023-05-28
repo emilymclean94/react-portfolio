@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
-import Projects from './pages/projectPage/projects';
+import Portfolio from './pages/portfolio/Portfolio'
 import Resume from './pages/resume/Resume';
 
 export default function PortfolioContainer() {
@@ -14,8 +14,8 @@ export default function PortfolioContainer() {
         if (currentPage === 'Resume') {
             return <Resume />;
         }
-        if (currentPage === 'Projects') {
-            return <Projects />;
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />;
         }
         return <Contact />;
         
