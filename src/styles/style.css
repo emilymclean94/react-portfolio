@@ -1,0 +1,14 @@
+main {
+    background-image: url('../assets/portfolio-background.png');
+    background-repeat: repeat;
+    background-color: #ffe8d6;
+  }
+
+  header {
+    background-color: #cb997e;
+  }
+
+  #navbar-name {
+    color: white;
+    text-decoration: none;
+  }
