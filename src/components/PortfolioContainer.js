@@ -25,7 +25,7 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <main>
+        <main className='vh-100'>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
 
             {renderPage()}

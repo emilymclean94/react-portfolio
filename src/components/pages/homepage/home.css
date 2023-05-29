@@ -1,4 +1,59 @@
+.home-div {
+    /* background-color: #b7b7a4; */
+    border-radius: 15px;
+    color: #5d6250;
+    /* box-shadow: 4px 4px 20px #cb997e; */
+}
 
 #name {
-    color: red;
+    color: #5d6250;
 }
+
+/* #portfolioBtn {
+    background-color: #5d6250;
+    color: #ffebdc;
+} */
+
+#portfolioBtn {
+    padding: 16px 42px;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+    line-height: 1.25;
+    background-color: #5d6250;
+    text-decoration: none;
+    color: #ffebdc;
+    font-size: 16px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    position: relative;
+    transition: background-color .6s ease;
+    overflow: hidden;
+    }
+
+    /* a .portfolioBtn:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 50%;
+      left: 50%;
+      top: var(--mouse-y);
+      left: var(--mouse-x);
+      transform-style: flat;
+      transform: translate3d(-50%,-50%,0);
+      background: rgba(white,.1);
+      border-radius: 100%;
+      transition: width .3s ease, height .3s ease;
+    }
+
+    a .portfolioBtn:focus,
+    a .portfolioBtn:hover {
+        background: darken(#5d6250,7%);
+    } */
+    
+    /* &:active {
+      &:after {
+        width: 300px;
+        height: 300px;
+      }
+    
+} */
