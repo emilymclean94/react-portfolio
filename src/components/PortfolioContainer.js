@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import About from './pages/homepage/Home';
 import Contact from './pages/contact/Contact';
 import Portfolio from './pages/portfolio/Portfolio'
@@ -19,16 +19,16 @@ export default function PortfolioContainer() {
             return <Portfolio />;
         }
         return <Contact />;
-        
+
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
         <main>
-        <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
 
-        {renderPage()}
+            {renderPage()}
         </main>
     );
 };

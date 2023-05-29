@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AboutMe(currentPage, handlePageChange) {
+export default function AboutMe() {
     return (
 
       <div className='border border-danger my-5c d-flex flex-column align-items-center container'>
