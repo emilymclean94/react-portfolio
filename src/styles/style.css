@@ -28,3 +28,9 @@ main {
   .custom-toggler .navbar-toggler {
     border-color: rgb(158, 113, 89);
   } 
+
+  .nav-link-active {
+    text-decoration: none;
+    background-color: pink;
+    padding: 0;
+  }
