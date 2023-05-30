@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import About from './pages/homepage/Home';
 import Contact from './pages/contact/Contact';
-import Portfolio from './pages/portfolio/Portfolio'
+import Portfolio from './pages/portfolio/portfolioCards'
 import Resume from './pages/resume/Resume';
 import Header from './Header';
 
