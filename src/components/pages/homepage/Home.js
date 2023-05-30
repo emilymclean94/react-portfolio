@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css';
 
 
-export default function AboutMe() {
+export default function Home() {
     return (
       <section className='h-75 d-flex flex-wrap align-content-center'>
       <div className='home-div my-5 d-flex flex-column align-items-center container'>
