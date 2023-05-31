@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-export default function Header() {
+export default function Header({currentPage, handlePageChange}) {
     return (
         <header className='headerStyle'>
             <nav className="d-flex flex-wrap navbar navbar-expand-lg">
@@ -10,7 +10,7 @@ export default function Header() {
                     <span className="light navbar-toggler-icon"></span>
                 </button>
                 <div className="flex-wrap justify-content-end collapse navbar-collapse" id="navbarNav">
-                <Navigation />
+                <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
                 </div>
             </nav>
         </header>
