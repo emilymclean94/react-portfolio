@@ -33,12 +33,24 @@ body {
   
   .navbar-nav a {
     padding: 0;
-  }
-  .nav-link-active {
-    text-decoration: none;
-    padding: 0;
+    color: white;
   }
 
-  .nav-link-active:active {
-    
+  .nav-item {
+    margin: 5px;
+  }
+
+  .nav-link {
+    color: white;
+  }
+
+  .nav-link-active {
+    text-decoration: none;
+    ;
+    background-color: #9d7058
+  }
+
+  .nav-link-active:hover {
+    color: #9d7058;
+    background: #ffe8d6;
   }
