@@ -42,6 +42,7 @@
 }
 .portfolioBtn:focus, .portfolioBtn:hover {
   background: #6b705c;
+  cursor:pointer;
   
 }
 .portfolioBtn:active:after {
