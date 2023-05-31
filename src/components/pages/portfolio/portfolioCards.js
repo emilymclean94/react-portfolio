@@ -9,10 +9,13 @@ export default function PortfolioCards(props) {
         <div className="card-group">
         <div className='card-body col-lg-4'>
            <img 
-           onMouseEnter={() => setIsShown(false)}
-           onMouseLeave={() => setIsShown(true)}
+           onMouseOver={() => setIsShown(true)}
+           onMouseLeave={() => setIsShown(false)}
            src={props.projectImg} alt='project screenshot' className='img-fluid' height="25%" />
           </div>
+          {isShown && (
+            <div>Repo Image/link (make separate component</div>
+          )}
         <div className='card-body col-lg-4'>
           <h2>{props.title}</h2>
           <p> {props.description}</p>
