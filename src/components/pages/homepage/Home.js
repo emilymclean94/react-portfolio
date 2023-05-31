@@ -10,10 +10,7 @@ export default function Home() {
         <h3 className='text-center p-3'>
           I'm a Full Stack Web Developer! 
         </h3>
-        <a 
-        //! Will need to fix conditional rendering so this button works.
-        href="#Portfolio" 
-        id='portfolioBtn' className="portfolioBtn btn btn-lg p-2 px-5" role="button" aria-pressed="false">Portfolio</a>
+        <span className='portfolioBtn'>Portfolio</span>
       </div>
       </section>
     );
