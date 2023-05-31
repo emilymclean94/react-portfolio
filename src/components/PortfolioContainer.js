@@ -5,6 +5,7 @@ import Portfolio from './pages/portfolio/projects'
 import Resume from './pages/resume/Resume';
 import Header from './Header';
 import AboutMe from './pages/aboutMe/AboutMe';
+import Footer from './Footer';
 
 
 export default function PortfolioContainer() {
@@ -30,10 +31,12 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
+        <container>
         <main className='vh-100'>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-
             {renderPage()}
         </main>
+        <Footer />
+        </container>
     );
 };

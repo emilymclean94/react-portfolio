@@ -1,7 +1,6 @@
 import React from 'react';
 import headshot from '../../../assets/headshot.jpg';
 
-
 const styles = {
     img: {
     borderTopRightRadius: '150px',

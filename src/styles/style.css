@@ -53,3 +53,11 @@ body {
   .nav-link-active:hover {
     background: #9d7058;
   }
+
+  .footer ul {
+    list-style-type: none;
+  }
+
+  .footer {
+    bottom: 0;
+  }
