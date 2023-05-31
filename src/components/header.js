@@ -4,12 +4,12 @@ import React from 'react';
 export default function Header({ currentPage, handlePageChange }) {
     return (
         <header className='headerStyle'>
-        <nav className="border border-primary d-flex flex-wrap navbar navbar-expand-lg">
+        <nav className="d-flex flex-wrap navbar navbar-expand-lg">
             <a id='navbar-name' className="navbar-brand p-2" href="/">Emily McLean</a>
             <button className="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="light navbar-toggler-icon"></span>
             </button>
-            <div className="border border-secondary flex-wrap justify-content-end collapse navbar-collapse" id="navbarNav">
+            <div className="flex-wrap justify-content-end collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
             <li className="nav-item">
                 <a
