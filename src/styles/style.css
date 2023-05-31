@@ -3,13 +3,11 @@
 body {
   /* font-family: 'Secular One', sans-serif; */
   font-family: 'Montserrat Alternates', sans-serif;
-}
-
-main {
-    background-image: url('../assets/portfolio-background.png');
+  background-image: url('../assets/portfolio-background.png');
     background-repeat: repeat;
     background-color: #ffe8d6;
-  }
+    height: auto;
+}
 
   header {
     background-color: #cb997e;
