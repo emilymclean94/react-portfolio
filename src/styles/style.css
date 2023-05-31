@@ -46,11 +46,10 @@ body {
 
   .nav-link-active {
     text-decoration: none;
-    ;
-    background-color: #9d7058
+    background-color: #ffe8d6;
+    color: #9d7058;
   }
 
   .nav-link-active:hover {
-    color: #9d7058;
-    background: #ffe8d6;
+    background: #9d7058;
   }
