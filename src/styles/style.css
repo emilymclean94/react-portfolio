@@ -24,11 +24,21 @@ body {
   }
 
   .custom-toggler .navbar-toggler {
-    border-color: rgb(158, 113, 89);
+    border-color: #9d7058;
   } 
 
+  a {
+    color:white
+  }
+  
+  .navbar-nav {
+    padding: 0;
+  }
   .nav-link-active {
     text-decoration: none;
-    background-color: pink;
     padding: 0;
+  }
+
+  .nav-link-active:active {
+    
   }
