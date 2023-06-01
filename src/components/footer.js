@@ -4,15 +4,14 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 const styles = {
     icons: {
         color: '#cb997e',
-        marginBottom: '2px',
+        margin: '0px',
     } 
 }
 
 export default function Footer() {
     return (
-        <container className='footer'>
-            <row>
-                <ul className='d-flex justify-content-center'>
+        <footer className='footer'>
+                <ul className='d-flex justify-content-center m-0'>
                     <li>
                         <h2>
                         <a href="https://github.com/emilymclean94" style={styles.icons}>
@@ -27,9 +26,7 @@ export default function Footer() {
                         </a>
                         </h2>
                     </li>
-
                 </ul>
-            </row>
-        </container>
+        </footer>
     )
 }

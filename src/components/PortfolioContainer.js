@@ -32,11 +32,12 @@ export default function PortfolioContainer() {
 
     return (
         <container>
-        <main className='vh-100'>
+        <main className='vh-100 d-flex flex-column'>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer />
         </main>
-        <Footer />
+        
         </container>
     );
 };
